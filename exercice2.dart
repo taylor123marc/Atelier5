@@ -6,5 +6,8 @@ void main() {
   } on FormatException {
     print("Erreur : le format saisi n'est pas valide !");
   } 
+  finally {
+    print("Fin d'opération");
+  }
 
  }
